@@ -15,7 +15,7 @@ const appsData = [
       {
         appHeader: "GENERATEUR DE CITATION",
         appTitle: "Générateur de Citation",
-        appDescription: "Génère des citations de manière aléatoire à l'aide d'un API. Possibilité de partager ses citations favorites sur Twitter."
+        appDescription: "Génère des citations de manière aléatoire à l'aide d'un API. Possibilité de partager ses citations favorites sur Twitter. (en anglais)"
       },
       {
         appHeader: "JEU DU PENDU",

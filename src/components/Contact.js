@@ -10,11 +10,11 @@ const Contact = (props) => {
               <ul className="ul-contact">
                 <li className="">
                   <i className="fas fa-phone" aria-hidden="true" />
-                  <span className="pl-3">xx xx xx xx xx</span>
+                  <span className="pl-3">07 66 81 53 02</span>
                 </li>
                 <li className="">
                   <i className="fas fa-envelope" aria-hidden="true" />
-                  <span className="pl-3">xxx@xxx.xx</span>
+                  <span className="pl-3">jonaz_littardi@hotmail.com</span>
                 </li>
               </ul>
               <ul className="ul-icon d-flex justify-content-between">

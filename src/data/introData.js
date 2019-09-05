@@ -2,7 +2,7 @@ const introData = [
     {
         introHeader: "Presenting",
         introPara: ["After facing the difficulties of an artist's career, I opted for a career change in the digital technology and more specifically as a web developer. You may think, an incongruous choice, but a little context should enlighten you.",
-                    "Curious by nature and being from a gamer's generation, I previously dabbled in programming video games. At the time, being more of player than a coder 😃, and wanting to persevere as an artist, I did not pursue this field.",
+                    "Curious by nature and being from a gamer's generation, I previously dabbled in programming video games. At the time, being more of player than a coder 😃, and wanting to persevere as an artist, I did not further explore this field.",
                     "After confirming my wish for a stable job, I invested myself entirely in learning the basics of a web developer."
         ]
     },

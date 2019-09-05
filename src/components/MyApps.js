@@ -1,5 +1,8 @@
 import React from 'react';
 
+import screenshotQuoteGenerator from '../images/Screenshot_2019-08-29 Quote Generator(1).png';
+import screenshotHangman from '../images/Screenshot_2019-08-29 Hangman Game(1).png';
+
 const MyApps = (props) => {
     const {app} = props
     return(
@@ -23,7 +26,7 @@ const MyApps = (props) => {
                   >
                     <div className="app-card">
                       <div className="app-card-front">
-                        <img src="https://dummyimage.com/513x300&text=quote+generator+snapshot" alt="quote generator snapshot"/>
+                        <img src={screenshotQuoteGenerator} alt="quote generator snapshot"/>
                       </div>
                       <div className="app-card-back d-flex align-items-center">
                         <p>{app[0].appDescription}</p>
@@ -48,7 +51,7 @@ const MyApps = (props) => {
                   >
                     <div className="app-card">
                       <div className="app-card-front">
-                        <img src="https://dummyimage.com/513x300&text=hangman+game+snapshot" alt="hangman game snapshot"/>
+                        <img src={screenshotHangman} alt="hangman game snapshot"/>
                       </div>
                       <div className="app-card-back d-flex align-items-center">
                         <p>{app[1].appDescription}</p>
