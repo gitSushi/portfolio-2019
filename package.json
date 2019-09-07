@@ -2,6 +2,7 @@
   "name": "portfolio-2019",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gitSushi.github.com/portfolio-2019",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gsap": "^2.1.3",
@@ -14,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "sass": "^1.23.0-module.beta.1"
   }
 }
