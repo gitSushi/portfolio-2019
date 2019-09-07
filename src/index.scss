@@ -1,15 +1,12 @@
 /* ########## variables ########## */
 $tuna: #c45154;
-$gold: #d5b57b;
-$blue: #0f142d;
-$orange-font: #f68c0f;
 $blue-font: #0094d4;
 $lower-intro: 16px;
 @mixin section-start{
   padding: 40px 0;
   font-family: 'Anton', sans-serif;
 }
-$size: 400px;
+
 /* ########## main ########## */
 * {
   box-sizing: border-box;
@@ -63,7 +60,7 @@ nav{
     clip-path: url("#clipPolygon");
     shape-outside: polygon(8.1% 54.95%, 39.38% 41.25%, 74.11% 50.9%, 96.85% 66.92%, 81.85% 86.22%, 75.78% 96.92%, 14.4% 89.62%, -1.91% 75.51%);
     opacity: 0.7;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .div-intro{
     h2{
@@ -82,6 +79,7 @@ nav{
     p{
       font-size: 20px;
       font-family: 'Hepta Slab', serif;
+      font-weight: bold;
       color: white;
     }
   }
@@ -176,22 +174,8 @@ nav{
     width: 400px;
     height: 491px;
     overflow-y: scroll;
+    scrollbar-color: $tuna #f0f0f0;
     text-align: left;
-    .color1{
-      color: #ddca7e
-    }
-    .color2{
-      color: #d0782a
-    }
-    .keyword{
-      color: #9a8297
-    }
-    .plain{
-      color: #f8f8f2
-    }
-    .string{
-      color: #96b37d
-    }
   }
   .copy-me{
     margin-left: 10px;
@@ -211,7 +195,8 @@ nav{
       flex: none;
       height: 150px;
       flex-flow: row nowrap;
-      scroll-snap-type: x mandatory;
+      //scroll-snap-type: x mandatory;
+      scrollbar-color: $tuna #f0f0f0;
       & >.thumbnail-container {
         scroll-snap-align: center;
         flex: none;
@@ -306,7 +291,7 @@ nav{
         transform: scale(0.7);
         cursor: pointer;
         path{
-          fill: $orange-font;
+          fill: $tuna;
         }
       }
     }
@@ -331,7 +316,7 @@ nav{
           justify-content: space-evenly;
           li{
             background: #FFF;
-            color: $orange-font;
+            color: $tuna;
             text-align: center;
             list-style-type: none;
             width: 100%;
@@ -349,7 +334,7 @@ nav{
           height: 300px;
           position: absolute;
           width: 2px;
-          background: $orange-font;
+          background: $tuna;
         }
       }
     }
@@ -370,6 +355,7 @@ nav{
     .h3-contact{
       margin: 16px 0 32px;
       padding: 0 16px;
+      color: $blue-font;
     }
     .ul-contact{
       list-style-type: none;

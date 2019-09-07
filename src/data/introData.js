@@ -1,16 +1,18 @@
 const introData = [
     {
         introHeader: "Presenting",
-        introPara: ["After facing the difficulties of an artist's career, I opted for a career change in the digital technology and more specifically as a web developer. You may think, an incongruous choice, but a little context should enlighten you.",
-                    "Curious by nature and being from a gamer's generation, I previously dabbled in programming video games. At the time, being more of player than a coder 😃, and wanting to persevere as an artist, I did not further explore this field.",
-                    "After confirming my wish for a stable job, I invested myself entirely in learning the basics of a web developer."
+        introPara: ["This is indeed the portfolio of a web developer and not a sushi restaurant website.",
+                    "Though I do like to roll sushi myself.",
+                    "To clarify this is an introduction to my involvement in web development and lossushi is my alias.",
+                    "Enjoy !"
         ]
     },
     {
         introHeader: "se présente",
-        introPara: ["Après avoir fait face aux difficultés d'une carrière d'artiste, j'ai opté pour une reconversion professionnelle dans le domaine du numérique et plus particulièrement en tant que développeur web. Vous penserez peut-être, un choix incongru, mais un peu de contexte devrait vous éclairer.",
-                    "De par nature curieux et étant d'une génération de gamer, je me suis préalablement essayé à la programmation de jeux vidéo. À l'époque étant toujours trop interessé à jouer à ces jeux 😃, et voulant persévérer en tant qu'artiste, je n'ai pas approfondi cette piste.",
-                    "Ayant pris du métier et après avoir confirmé mon souhait d'un emploi stable, je me suis investi entièrement dans l'apprentissage des bases pour être un développeur web."
+        introPara: ["Vous consultez bien le portfolio d'un développeur web et non le site d'un restaurant de sushi.",
+                    "J'apprécie cependant de préparer mes propres sushis.",
+                    "Résumons, ceci est une présentation de ma participation au développement web et lossushi est mon pseudonyme.",
+                    "Bonne lecture !"
         ]
     }
 ];

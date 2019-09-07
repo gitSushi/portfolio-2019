@@ -11,6 +11,7 @@ const Intro = (props) => {
               <p>{props.intro[1].introPara[0]}</p>
               <p>{props.intro[1].introPara[1]}</p>
               <p>{props.intro[1].introPara[2]}</p>
+              <p>{props.intro[1].introPara[3]}</p>
             </div>
             : 
             <div className="div-intro">
@@ -18,6 +19,7 @@ const Intro = (props) => {
               <p>{props.intro[0].introPara[0]}</p>
               <p>{props.intro[0].introPara[1]}</p>
               <p>{props.intro[0].introPara[2]}</p>
+              <p>{props.intro[0].introPara[3]}</p>
             </div>
           }
           </section>

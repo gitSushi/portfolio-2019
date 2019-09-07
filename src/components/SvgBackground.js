@@ -5,11 +5,12 @@ class SvgBackground extends React.Component{
       super(props)
       this.state = {stateIdx: 0}
     }
-    // bound functions
+    
     onClickThumbnail = (event) => {
       let clicked = event.target.id
       this.setState({stateIdx: clicked})
     }
+    
     render(){
       let {bg, enfr} = this.props
       let {stateIdx} = this.state
@@ -28,9 +29,6 @@ class SvgBackground extends React.Component{
             <div className="container carousel-container">
               <div className="row">
                 <div className="col-md-6">
-                  {/*<div className="svg-snap-container">
-                    <div className="svg-snap"></div>
-                  </div>*/}
                   <div className="card">
                     <div className="card-header" style={{fontSize:"20px"}}>{bg[stateIdx].name}</div>
                     <div className="card-body">
@@ -62,19 +60,19 @@ class SvgBackground extends React.Component{
                                 <div className="thumbnail-container" key={index}>
                                   <div 
                                   className="svg-bg-thumbnail"
-                                  style={{background:(bg[index].cssBg)}}
+                                  style={{background:(arr[index].cssBg)}}
                                   onClick={(this.onClickThumbnail.bind(this))} 
                                   id={(index)}/>
                                   {index + 1 < arr.length &&
                                   <div 
                                   className="svg-bg-thumbnail"
-                                  style={{background:(bg[index+1].cssBg)}}
+                                  style={{background:(arr[index+1].cssBg)}}
                                   onClick={(this.onClickThumbnail.bind(this))} 
                                   id={(index+1)}/>}
                                   {index + 2 < arr.length &&
                                   <div 
                                   className="svg-bg-thumbnail"
-                                  style={{background:(bg[index+2].cssBg)}}
+                                  style={{background:(arr[index+2].cssBg)}}
                                   onClick={(this.onClickThumbnail.bind(this))} 
                                   id={(index+2)}/>}
                                 </div>
