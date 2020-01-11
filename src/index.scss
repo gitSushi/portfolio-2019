@@ -115,9 +115,7 @@ nav{
         background: white;
         .app-card{
           position: relative;
-          width: 513px;
-          height: 300px;
-          text-align: center;
+          padding-bottom: 70%;
           &:hover .app-card-front{
             opacity: 0;
           }
@@ -126,17 +124,14 @@ nav{
           }
           .app-card-front, .app-card-back{
             position: absolute;
-            width: 100%;
-            height: 100%;
             transition: opacity 1s;
           }
           .app-card-front{
             opacity: 1;
-            img{
-              height: 100%;
-            }
           }
           .app-card-back{
+            width: 100%;
+            height: 100%;
             font-family: 'Hepta Slab', serif;
             font-size: 20px;
             opacity: 0;

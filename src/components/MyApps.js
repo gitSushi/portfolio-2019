@@ -26,9 +26,9 @@ const MyApps = (props) => {
                   >
                     <div className="app-card">
                       <div className="app-card-front">
-                        <img src={screenshotQuoteGenerator} alt="quote generator snapshot"/>
+                        <img className="card-img" src={screenshotQuoteGenerator} alt="quote generator snapshot"/>
                       </div>
-                      <div className="app-card-back d-flex align-items-center">
+                      <div className="app-card-back d-flex justify-content-center align-items-center">
                         <p>{app[0].appDescription}</p>
                       </div>
                     </div>
@@ -51,9 +51,9 @@ const MyApps = (props) => {
                   >
                     <div className="app-card">
                       <div className="app-card-front">
-                        <img src={screenshotHangman} alt="hangman game snapshot"/>
+                        <img className="card-img" src={screenshotHangman} alt="hangman game snapshot"/>
                       </div>
-                      <div className="app-card-back d-flex align-items-center">
+                      <div className="app-card-back d-flex justify-content-center align-items-center">
                         <p>{app[1].appDescription}</p>
                       </div>
                     </div>
