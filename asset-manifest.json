@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-2019/static/css/main.3c610529.chunk.css",
-    "main.js": "/portfolio-2019/static/js/main.daeee3b7.chunk.js",
-    "main.js.map": "/portfolio-2019/static/js/main.daeee3b7.chunk.js.map",
+    "main.css": "/portfolio-2019/static/css/main.cb838963.chunk.css",
+    "main.js": "/portfolio-2019/static/js/main.fcac7be6.chunk.js",
+    "main.js.map": "/portfolio-2019/static/js/main.fcac7be6.chunk.js.map",
     "runtime~main.js": "/portfolio-2019/static/js/runtime~main.a2571eea.js",
     "runtime~main.js.map": "/portfolio-2019/static/js/runtime~main.a2571eea.js.map",
     "static/css/2.266e55a5.chunk.css": "/portfolio-2019/static/css/2.266e55a5.chunk.css",
     "static/js/2.18280c97.chunk.js": "/portfolio-2019/static/js/2.18280c97.chunk.js",
     "static/js/2.18280c97.chunk.js.map": "/portfolio-2019/static/js/2.18280c97.chunk.js.map",
     "index.html": "/portfolio-2019/index.html",
-    "precache-manifest.31fed847a64e892a4571294d7e5f159b.js": "/portfolio-2019/precache-manifest.31fed847a64e892a4571294d7e5f159b.js",
+    "precache-manifest.c16df5568ffca4fb189c4c12024f0982.js": "/portfolio-2019/precache-manifest.c16df5568ffca4fb189c4c12024f0982.js",
     "service-worker.js": "/portfolio-2019/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/portfolio-2019/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.3c610529.chunk.css.map": "/portfolio-2019/static/css/main.3c610529.chunk.css.map",
+    "static/css/main.cb838963.chunk.css.map": "/portfolio-2019/static/css/main.cb838963.chunk.css.map",
     "static/media/Screenshot_2019-08-29 Hangman Game(1).png": "/portfolio-2019/static/media/Screenshot_2019-08-29 Hangman Game(1).32740a81.png",
     "static/media/Screenshot_2019-08-29 Quote Generator(1).png": "/portfolio-2019/static/media/Screenshot_2019-08-29 Quote Generator(1).8ea398bc.png"
   }
